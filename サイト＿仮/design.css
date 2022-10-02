@@ -1,0 +1,41 @@
+h1 {
+    position: relative;
+    background: #dfefff;
+    box-shadow: 0px 0px 0px 5px #dfefff;
+    border: dashed 2px rgba(255, 250, 250, 0.534);
+    padding: 0.2em 0.6em;
+    color: #454545;
+
+  }
+
+  h1:after {
+    position: absolute;
+    content: '';
+    left: -7px;
+    top: -7px;
+    border-width: 0 0 15px 15px;
+    border-style: solid;
+    border-color: #fff #fff #a8d4ff;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  }
+
+
+  ul, ol {
+    padding: 0;
+    position: relative;
+  }
+
+  ul li, ol li {
+    color: #2d8fdd;
+    border-left: solid 6px #1a74be;/*左側の線*/
+    background: #f1f8ff;/*背景色*/
+    margin-bottom: 3px;/*下のバーとの余白*/
+     line-height: 1.5;
+    padding: 0.5em;
+    list-style-type: none!important;/*ポチ消す*/
+  }
+
+  a {text-decoration: none}
+
+
+
